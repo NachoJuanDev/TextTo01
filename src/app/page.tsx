@@ -26,6 +26,7 @@ function Home() {
   }
 
   const handleCopyToClipboard = () => copyToClipboard(matrixToText(grid))
+  const handleCopyToClipboardOneLine = () => copyToClipboard(matrixToText(grid, true))
 
   const reset = () => setGrid(getNewMatrix())
 
@@ -46,7 +47,8 @@ function Home() {
       </div>
       <div className="w-80 flex justify-between m-4">
         <button onClick={reset}>Reiniciar</button>
-        <button onClick={handleCopyToClipboard}>Copiar al Portapeles</button>
+        <button onClick={handleCopyToClipboard}>Copiar</button>
+        <button onClick={handleCopyToClipboardOneLine}>Copiar en una línea</button>
       </div>
     </main>
   )
