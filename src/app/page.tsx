@@ -31,7 +31,7 @@ function Home() {
   const reset = () => setGrid(getNewMatrix())
 
   return (
-    <main className="container mx-auto h-screen min-h-min flex flex-col items-center">
+    <main className="container mx-auto min-h-min flex flex-col items-center">
       <div className="h-32 flex items-center">
         <h1 className={`text-3xl ${robotoMono.className}`}>TextTo01</h1>
       </div>
