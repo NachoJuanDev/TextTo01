@@ -7,7 +7,7 @@ export default function Footer() {
       </span>
 
       <div className="text-xs text-slate-300">
-        {'Revisa el repo en GitHub: '}
+        {'Check the repo at GitHub: '}
         <a href="https://github.com/NachoJuanDev/TextTo01">TextTo01</a>
       </div>
     </div>

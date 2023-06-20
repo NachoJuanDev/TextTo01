@@ -46,9 +46,9 @@ function Home() {
         <GridText grid={grid} />
       </div>
       <div className="w-80 flex justify-between m-4">
-        <button onClick={reset}>Reiniciar</button>
-        <button onClick={handleCopyToClipboard}>Copiar</button>
-        <button onClick={handleCopyToClipboardOneLine}>Copiar en una línea</button>
+        <button onClick={reset}>Reset</button>
+        <button onClick={handleCopyToClipboard}>Copy</button>
+        <button onClick={handleCopyToClipboardOneLine}>Copy on one line</button>
       </div>
     </main>
   )
