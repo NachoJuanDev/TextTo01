@@ -1,5 +1,7 @@
 # TextTo01
 
+Link to website [textto01.vercel.app](https://textto01.vercel.app/)
+
 Draw text and convert it in 0s and 1s - by [@NachoJuanDev](https://github.com/NachoJuanDev)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). This project uses [Tailwindcss](https://tailwindcss.com/).
